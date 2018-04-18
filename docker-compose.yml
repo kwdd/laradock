@@ -507,7 +507,6 @@ services:
         - elasticsearch-data:/usr/share/elasticsearch/data
         - elasticsearch-plugins:/usr/share/elasticsearch/plugins
       environment:
-        - cluster.name=laradock-cluster
         - bootstrap.memory_lock=true
         - "ES_JAVA_OPTS=-Xms256m -Xmx256m"
       ulimits:
