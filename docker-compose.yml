@@ -108,6 +108,7 @@ services:
       environment:
         - PHP_IDE_CONFIG=${PHP_IDE_CONFIG}
       networks:
+        - frontend
         - backend
 
 ### PHP Worker Container #####################################
